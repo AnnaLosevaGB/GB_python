@@ -1,0 +1,6 @@
+name = input('Введите имя: ')
+number = int(input('Введите целое число: '))
+float_number = float(input('Введите дробное число: '))
+print(f'Пользователь {name} ввел числа {number} и {float_number}')
+print(f'Сумма чисел: {number + float_number}')
+print(f'Произведение чисел: {number * float_number}')
